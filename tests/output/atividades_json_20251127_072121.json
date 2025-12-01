@@ -1,0 +1,25 @@
+{
+  "metadados": {
+    "etapa_atual": "ATIVIDADES",
+    "timestamp": "2025-11-27T07:21:21.128178",
+    "versao": "2.5.2",
+    "branch": "feature/working-branch",
+    "origem": "teste_automatizado_botao_preencher"
+  },
+  "etapa_04_atividades": {
+    "atividades": [
+      {
+        "codigo": 1232407,
+        "nome": "Extração e/ou beneficiamento de carvão mineral",
+        "cnaeCodigo": "2.1",
+        "descricao": null,
+        "quantidade": 150.0,
+        "unidade": "2",
+        "areaOcupada": 2500.5,
+        "porteEmpreendimento": "Grande",
+        "potencialPoluidor": "Alto",
+        "isPrincipal": true
+      }
+    ]
+  }
+}

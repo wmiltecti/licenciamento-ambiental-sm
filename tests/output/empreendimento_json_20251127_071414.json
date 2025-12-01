@@ -1,0 +1,70 @@
+{
+  "metadados": {
+    "metodo_coleta": "contexto_testes",
+    "timestamp": "2025-11-27T07:14:14.487105",
+    "versao": "2.5.2",
+    "branch": "feature/working-branch"
+  },
+  "etapa_01_navegacao": {
+    "status": "sucesso",
+    "login_ok": false,
+    "menu_acessado": false,
+    "wizard_aberto": false
+  },
+  "etapa_02_imovel": {
+    "tipoImovel": "URBANO",
+    "nomeImovel": "Lote Urbano Teste 7827",
+    "cep": "76801-000",
+    "matricula": "40626",
+    "logradouro": "Avenida 7 de Setembro",
+    "numero": "181",
+    "bairro": "Centro",
+    "complemento": "Sala 171",
+    "municipio": "Porto Velho",
+    "uf": "RO",
+    "areaTotalM2": 278.0,
+    "sistemaReferencia": "SIRGAS 2000",
+    "coordenadas": {
+      "latitude": -8.76194,
+      "longitude": -63.90385
+    }
+  },
+  "etapa_03_dados_gerais": {
+    "nomeEmpreendimento": "Complexo Industrial Mineração ABC",
+    "situacao": "Planejado",
+    "numeroEmpregados": 150,
+    "horarioFuncionamento": "07:00 às 17:00",
+    "descricao": "Empreendimento voltado para extração e beneficiamento de minérios...",
+    "prazoImplantacao": 24,
+    "areaConstruida": 5000.0,
+    "capacidadeProducao": "10.000 ton/mês",
+    "participes": [
+      {
+        "nome": "Empresa Mineração ABC Ltda",
+        "cpfCnpj": "12.345.678/0001-90",
+        "tipo": "PJ",
+        "papel": "Requerente",
+        "email": "contato@mineracaoabc.com.br",
+        "telefone": "(69) 98765-4321"
+      }
+    ]
+  },
+  "etapa_04_atividades": {
+    "atividades": [
+      {
+        "codigo": 110101,
+        "nome": "Extração de Minérios",
+        "quantidade": 150.0,
+        "unidade": "ton/mês",
+        "areaOcupada": 2500.5,
+        "porteEmpreendimento": "Grande",
+        "isPrincipal": true
+      }
+    ]
+  },
+  "etapa_05_caracterizacao": {
+    "caracterizacao_completa": true,
+    "perguntas_respondidas": 13,
+    "timestamp_finalizacao": "2025-11-27T07:14:12.468624"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "metadados": {
+    "etapa_atual": "IMOVEL",
+    "timestamp": "2025-11-27T05:55:07.726466",
+    "versao": "2.5.2",
+    "branch": "feature/working-branch"
+  },
+  "etapa_02_imovel": {
+    "tipoImovel": "URBANO",
+    "nomeImovel": "Lote Urbano Teste 8980",
+    "cep": "76801-000",
+    "matricula": "62881",
+    "logradouro": "Avenida 7 de Setembro",
+    "numero": "726",
+    "bairro": "Centro",
+    "complemento": "Sala 282",
+    "municipio": "Porto Velho",
+    "uf": "RO",
+    "areaTotalM2": 64.0,
+    "sistemaReferencia": "SIRGAS 2000",
+    "coordenadas": {
+      "latitude": -8.76194,
+      "longitude": -63.90385
+    }
+  }
+}

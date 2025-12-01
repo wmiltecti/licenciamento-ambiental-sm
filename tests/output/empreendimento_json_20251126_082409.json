@@ -1,0 +1,11 @@
+{
+  "metodo": "coleta_interface",
+  "timestamp": "2025-11-26T08:24:09.631688",
+  "mensagem": "Dados coletados da interface por não ter acesso direto ao store",
+  "contexto_testes": {
+    "status": "sucesso",
+    "caracterizacao_completa": true,
+    "perguntas_respondidas": 5,
+    "timestamp": "2025-11-26T08:24:07.614189"
+  }
+}

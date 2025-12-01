@@ -1,0 +1,26 @@
+{
+  "metadados": {
+    "etapa_atual": "IMOVEL",
+    "timestamp": "2025-11-27T07:13:41.432975",
+    "versao": "2.5.2",
+    "branch": "feature/working-branch"
+  },
+  "etapa_02_imovel": {
+    "tipoImovel": "URBANO",
+    "nomeImovel": "Lote Urbano Teste 7827",
+    "cep": "76801-000",
+    "matricula": "40626",
+    "logradouro": "Avenida 7 de Setembro",
+    "numero": "181",
+    "bairro": "Centro",
+    "complemento": "Sala 171",
+    "municipio": "Porto Velho",
+    "uf": "RO",
+    "areaTotalM2": 278.0,
+    "sistemaReferencia": "SIRGAS 2000",
+    "coordenadas": {
+      "latitude": -8.76194,
+      "longitude": -63.90385
+    }
+  }
+}

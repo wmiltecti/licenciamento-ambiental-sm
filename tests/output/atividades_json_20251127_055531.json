@@ -1,0 +1,21 @@
+{
+  "metadados": {
+    "etapa_atual": "ATIVIDADES",
+    "timestamp": "2025-11-27T05:55:31.681785",
+    "versao": "2.5.2",
+    "branch": "feature/working-branch"
+  },
+  "etapa_04_atividades": {
+    "atividades": [
+      {
+        "codigo": 110101,
+        "nome": "Extração de Minérios",
+        "quantidade": 150.0,
+        "unidade": "ton/mês",
+        "areaOcupada": 2500.5,
+        "porteEmpreendimento": "Grande",
+        "isPrincipal": true
+      }
+    ]
+  }
+}

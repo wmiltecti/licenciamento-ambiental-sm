@@ -1,0 +1,22 @@
+{
+  "metadados": {
+    "etapa_atual": "IMOVEL",
+    "timestamp": "2025-11-27T07:21:00.310683",
+    "versao": "2.5.2",
+    "branch": "feature/working-branch"
+  },
+  "etapa_02_imovel": {
+    "tipoImovel": "LINEAR",
+    "nomeEmpreendimento": "Rodovia Teste 8813",
+    "pontoInicio": {
+      "municipio": "Porto Velho",
+      "uf": "RO"
+    },
+    "pontoFinal": {
+      "municipio": "Ariquemes",
+      "uf": "RO"
+    },
+    "extensaoKm": 64.0,
+    "sistemaReferencia": "SIRGAS 2000"
+  }
+}

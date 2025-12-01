@@ -1,0 +1,143 @@
+{
+  "metadados": {
+    "metodo_coleta": "contexto_testes",
+    "timestamp": "2025-11-27T07:21:34.621029",
+    "versao": "2.5.2",
+    "branch": "feature/working-branch"
+  },
+  "etapa_01_navegacao": {
+    "status": "sucesso",
+    "login_ok": false,
+    "menu_acessado": false,
+    "wizard_aberto": false
+  },
+  "etapa_02_imovel": {
+    "tipoImovel": "LINEAR",
+    "nomeEmpreendimento": "Rodovia Teste 8813",
+    "pontoInicio": {
+      "municipio": "Porto Velho",
+      "uf": "RO"
+    },
+    "pontoFinal": {
+      "municipio": "Ariquemes",
+      "uf": "RO"
+    },
+    "extensaoKm": 64.0,
+    "sistemaReferencia": "SIRGAS 2000"
+  },
+  "etapa_03_dados_gerais": {
+    "nomeEmpreendimento": "Complexo Industrial Mineração ABC",
+    "situacao": "Planejado",
+    "numeroEmpregados": 150,
+    "horarioFuncionamento": "07:00 às 17:00",
+    "descricao": "Empreendimento voltado para extração e beneficiamento de minérios...",
+    "prazoImplantacao": 24,
+    "areaConstruida": 5000.0,
+    "capacidadeProducao": "10.000 ton/mês",
+    "participes": [
+      {
+        "nome": "Empresa Mineração ABC Ltda",
+        "cpfCnpj": "12.345.678/0001-90",
+        "tipo": "PJ",
+        "papel": "Requerente",
+        "email": "contato@mineracaoabc.com.br",
+        "telefone": "(69) 98765-4321"
+      }
+    ]
+  },
+  "etapa_04_atividades": {
+    "atividades": [
+      {
+        "codigo": 1232407,
+        "nome": "Extração e/ou beneficiamento de carvão mineral",
+        "cnaeCodigo": "2.1",
+        "descricao": null,
+        "quantidade": 150.0,
+        "unidade": "2",
+        "areaOcupada": 2500.5,
+        "porteEmpreendimento": "Grande",
+        "potencialPoluidor": "Alto",
+        "isPrincipal": true
+      }
+    ]
+  },
+  "etapa_05_caracterizacao": {
+    "recursosEnergia": {
+      "utilizaLenha": false,
+      "possuiCaldeira": false,
+      "possuiFornos": false,
+      "combustiveis": [
+        {
+          "id": "auto-generated",
+          "tipoFonte": "Óleo",
+          "equipamento": "Motor 500 MW",
+          "quantidade": "100",
+          "unidade": "m³"
+        }
+      ]
+    },
+    "combustiveis": [
+      {
+        "id": "auto-generated",
+        "tipoFonte": "OLEO",
+        "equipamento": "Motor 500 MW",
+        "quantidade": 100,
+        "unidade": "KWH"
+      }
+    ],
+    "usoAgua": {
+      "origens": [
+        "Rede Pública"
+      ],
+      "consumoUsoHumano": "5.5",
+      "consumoOutrosUsos": "12.3",
+      "volumeDespejoDiario": "15.8",
+      "destinoFinalEfluente": "Rede Pública de Esgoto",
+      "outorgas": []
+    },
+    "residuos": {
+      "grupoA": [
+        {
+          "id": "auto-generated",
+          "tipo": "Materiais Perfurocortantes",
+          "quantidade": "25",
+          "destino": "Empresa Especializada"
+        }
+      ],
+      "grupoB": [
+        {
+          "id": "auto-generated",
+          "tipo": "Medicamentos Vencidos",
+          "quantidade": "10",
+          "destino": "Incineração"
+        }
+      ],
+      "gerais": [
+        {
+          "id": "auto-generated",
+          "categoria": "Sólidos",
+          "tipo": "Papel e Papelão",
+          "origem": "Área Administrativa",
+          "tratamento": "Não possui tratamento",
+          "destino": "Reciclagem",
+          "quantidade": "150"
+        }
+      ]
+    },
+    "outrasInformacoes": {
+      "respostas": {
+        "usaRecursosNaturais": false,
+        "geraEfluentesLiquidos": false,
+        "geraEmissoesAtmosfericas": true,
+        "geraResiduosSolidos": false,
+        "geraRuidosVibracao": true,
+        "localizadoAreaProtegida": false,
+        "necessitaSupressaoVegetacao": false,
+        "interfereCursoAgua": true,
+        "armazenaSubstanciaPerigosa": false,
+        "possuiPlanoEmergencia": true
+      },
+      "outrasInformacoesRelevantes": "Empreendimento possui procedimentos de segurança ambiental e trabalhista em conformidade com a legislação vigente. São realizadas auditorias periódicas e treinamentos contínuos. Medidas mitigadoras já implementadas incluem sistema de gestão de resíduos, tratamento de efluentes e controle de emissões atmosféricas."
+    }
+  }
+}

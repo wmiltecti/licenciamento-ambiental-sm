@@ -1,0 +1,22 @@
+{
+  "metadados": {
+    "etapa_atual": "IMOVEL",
+    "timestamp": "2025-11-26T15:40:36.192551",
+    "versao": "2.5.2",
+    "branch": "feature/working-branch"
+  },
+  "etapa_02_imovel": {
+    "tipoImovel": "RURAL",
+    "nomeImovel": "Fazenda Teste 3214",
+    "codigoCar": "RO-980172-94177612",
+    "situacaoCar": "ATIVO",
+    "areaTotalHa": 2892.0,
+    "municipio": "Porto Velho",
+    "uf": "RO",
+    "sistemaReferencia": "SIRGAS 2000",
+    "coordenadas": {
+      "latitude": -8.76194,
+      "longitude": -63.90385
+    }
+  }
+}
