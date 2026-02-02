@@ -28,10 +28,12 @@ import sys
 from datetime import datetime
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
+from webdriver_manager.chrome import ChromeDriverManager
 
 # Configuração
 CHROME_DRIVER_PATH = "C:\\chromedriver\\chromedriver.exe"
 BASE_URL = "http://localhost:5173"
+USE_WEBDRIVER_MANAGER = True  # Usar webdriver-manager para compatibilidade automática
 
 # Importar testes
 import test_novo_empreendimento_01_menu_navegacao as teste01
@@ -270,13 +272,31 @@ def main():
     except KeyboardInterrupt:
         print("\n\n⚠️  Execução interrompida pelo usuário (Ctrl+C)")
     finally:
-        # Perguntar se quer fechar navegador
+        # Fechar navegador automaticamente se todos os testes passaram
         if orquestrador.driver:
-            resposta = input("\nFechar navegador? (s/n): ")
-            if resposta.lower() == 's':
+            todos_sucesso = all(t['status'] == 'sucesso' or t['status'] == 'desativado' 
+                               for t in orquestrador.testes)
+            
+            if todos_sucesso:
+                print("\n" + "=" * 100)
+                print(" " * 35 + "🎉 EXECUÇÃO FINALIZADA COM SUCESSO! 🎉")
+                print("=" * 100)
+                print("\n✅ Todos os testes passaram! Fechando navegador automaticamente...")
+                time.sleep(2)  # Pequena pausa para ver a mensagem
                 orquestrador.fechar_navegador()
+                print("\n🏁 TESTE AUTOMATIZADO CONCLUÍDO - Sistema funcionando perfeitamente!")
+                print("=" * 100 + "\n")
             else:
-                print("🔍 Navegador mantido aberto para debug")
+                # Se houve erro, perguntar se quer manter aberto para debug
+                try:
+                    resposta = input("\n❌ Houve erros. Fechar navegador? (s/n): ")
+                    if resposta.lower() == 's':
+                        orquestrador.fechar_navegador()
+                    else:
+                        print("🔍 Navegador mantido aberto para debug")
+                except (KeyboardInterrupt, EOFError):
+                    print("\n🔒 Fechando navegador...")
+                    orquestrador.fechar_navegador()
     
     # Retornar código de saída apropriado
     if any(t['status'] == 'erro' for t in orquestrador.testes):
